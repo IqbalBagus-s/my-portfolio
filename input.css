@@ -8,6 +8,30 @@ body {
     @apply bg-black text-white font-Montserrat tracking-wider;
 }
 
+section {
+    @apply py-20 md:py-28;
+}
+
+h1 {
+    @apply text-3xl md:text-4xl xl:text-5xl font-bold;
+}
+
+/* button */
+.btn {
+    @apply border border-white rounded-lg px-3 py-1 duration-300;
+}
+
+
+.btn span {
+    @apply font-bold;
+}
+
+.btn:hover {
+    @apply border-darkBlue text-darkBlue;
+}
+
+
+
 .nav-link {
     @apply text-lg font-bold duration-300;
 }

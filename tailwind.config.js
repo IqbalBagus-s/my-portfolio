@@ -16,6 +16,14 @@ module.exports = {
         darkBlue: "#144660",
       },
     },
+    keyframes: {
+      move: {
+        "50%": { transform: "translateY(-1rem)" }
+      }
+    },
+    animation: {
+      movingY: "move 3s linear infinite"
+    },
     container: {
       center: true,
       padding: {

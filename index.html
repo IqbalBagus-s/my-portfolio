@@ -15,7 +15,7 @@
   <header id="navbar" class="bg-black fixed w-full top-0 left-0 z-50">
     <!-- navbar -->
      <nav class="container flex items-center justify-between h-16 sm:h-20">
-      <div class="sm:text-2xl">My PortoFolio</div>
+      <div class="sm:text-2xl">My Portofolio</div>
         <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[80vh] w-full bg-black-950/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto">
           <ul class="flex flex-col items-center gap-8 lg:flex-row">
             <li><a href="#home" class="nav-link">Home</a></li>
@@ -33,7 +33,55 @@
   </header>  
 
   <main>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="absolute inset-0 -z-10">
+        <img src="./assets/img/home.jpg" alt="" class="w-full h-full object-cover sm:invisible lg:visible">
+      </div>
+      <div class="container relative mt-16">
+        <div class="flex lg:flex-row flex-col items-center gap-5">
+          <!-- content -->
+          <div class="w-full flex flex-col items-center space-y-5">
+            <h1 >Hi, I am Iqbal</h1>
+            <h2>Web Developer</h2>
 
+            <div class="flex flex-row gap-2 pt-3">
+              <button class="btn">
+                <span class="text-xs">Download CV</span>
+                <i class="ri-file-download-line"></i>
+              </button>
+
+              <button class="btn">
+                <span class="text-xs">Contact Me</span>
+                <i class="ri-contacts-line"></i>
+              </button>
+            </div>
+
+            <div class="flex flex-row items-center gap-4 text-4xl">
+              <i class="ri-github-fill text-white hover:text-darkBlue duration-300 cursor-pointer"></i>
+              <i class="ri-linkedin-box-line text-white hover:text-darkBlue duration-300 cursor-pointer"></i>
+              <i class="ri-instagram-line text-white hover:text-darkBlue duration-300 cursor-pointer"></i>
+            </div>
+          </div>
+
+          <!-- image -->
+          <div class="relative">
+            <img src="./assets/img/home.jpg" alt="home_image" class="w-full lg:invisible">
+            
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+      <div>
+
+      </div>
+    </section>
+    <!-- Resume -->
+
+    <!-- Portofolio -->
   </main>
   <!-- script js -->
    <script src="main.js">
