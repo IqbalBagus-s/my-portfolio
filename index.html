@@ -34,55 +34,89 @@
 
   <main>
     <!-- Home Section -->
-    <section id="home">
+    <section id="home" class="relative h-screen flex items-center sm:py-24 md:py-24">
       <div class="absolute inset-0 -z-10">
-        <img src="./assets/img/home.jpg" alt="" class="w-full h-full object-cover sm:invisible lg:visible">
+        <img src="./assets/img/home-bg.jpg" alt="" class="w-full h-full object-cover sm:invisible lg:visible">
       </div>
-      <div class="container relative mt-16">
-        <div class="flex lg:flex-row flex-col items-center gap-5">
-          <!-- content -->
-          <div class="w-full flex flex-col items-center space-y-5">
-            <h1 >Hi, I am Iqbal</h1>
-            <h2>Web Developer</h2>
-
-            <div class="flex flex-row gap-2 pt-3">
+      <div class="container mx-auto px-5 lg:px-10">
+        <div class="flex lg:flex-row flex-col items-center justify-center gap-10">
+          <!-- Content -->
+          <div class="w-full flex flex-col items-center text-center space-y-5 sm:space-y-0">
+            <h1 class="">Hi! I'm Iqbal Bagus Satriawan</h1>
+            <h2 class="">Crafting Creative and Functional<br>Web Solutions</h2>
+            <div class="flex justify-center pt-4 relative  sm:invisible lg:visible">
+              <!-- Garis -->
+              <span class="absolute top-0 left-1/2 -translate-x-1/2 h-0.5 bg-white " style="width: 400px;"></span>
+            </div>
+            <div class="flex relative flex-row gap-4">
               <button class="btn">
-                <span class="text-xs">Download CV</span>
+                <span class="text-sm sm:text-xs">Download CV</span>
                 <i class="ri-file-download-line"></i>
               </button>
-
+            
               <button class="btn">
-                <span class="text-xs">Contact Me</span>
-                <i class="ri-contacts-line"></i>
+                <a href="https://wa.me/+6282335490445">
+                  <span class="text-sm sm:text-xs">Contact Me</span>
+                  <i class="ri-contacts-line"></i>
+                </a>
               </button>
             </div>
-
-            <div class="flex flex-row items-center gap-4 text-4xl">
-              <i class="ri-github-fill text-white hover:text-darkBlue duration-300 cursor-pointer"></i>
-              <i class="ri-linkedin-box-line text-white hover:text-darkBlue duration-300 cursor-pointer"></i>
-              <i class="ri-instagram-line text-white hover:text-darkBlue duration-300 cursor-pointer"></i>
+  
+            <div class="flex flex-row items-center gap-6 text-3xl pt-5">
+              <a href="https://github.com/IqbalBagus-s"><i class="ri-github-fill text-white hover:text-darkBlue duration-300 cursor-pointer" ></i></a>
+              <a href="https://www.linkedin.com/in/iqbal-bagus-satriawan-275895326"><i class="ri-linkedin-box-line text-white hover:text-darkBlue duration-300 cursor-pointer"></i></a>
+              <a href=""><i class="ri-instagram-line text-white hover:text-darkBlue duration-300 cursor-pointer"></i></a>
             </div>
           </div>
-
-          <!-- image -->
-          <div class="relative">
-            <img src="./assets/img/home.jpg" alt="home_image" class="w-full lg:invisible">
-            
+  
+          <!-- Image -->
+          <div class="w-full lg:invisible">
+            <img src="./assets/img/home.jpg" alt="home_image" class="w-full rounded-lg shadow-lg">
           </div>
-
         </div>
       </div>
     </section>
+  
     <!-- About Section -->
-    <section id="about">
-      <div>
-
+    <section id="about" class="relative min-h-screen flex items-center">
+      <div class="absolute inset-0 -z-10">
+        <img src="./assets/img/about.jpg" alt="about_image" class="w-full h-full object-cover sm:invisible lg:visible">
+      </div>
+      <div class="container mx-auto px-5 lg:px-10 relative z-10">
+        <div class="flex lg:flex-row flex-col items-start gap-10">
+          <!-- Content -->
+          <div class="w-full lg:w-2/3 space-y-5 text-left">
+            <div class="relative flex flex-col">
+              <h1 class="text-4xl lg:text-5xl font-bold text-white relative inline-block">
+                About Me
+                <span class="absolute -bottom-1 left-0 h-1 bg-darkBlue sm:invisible lg:visible" style="width: 360px;"></span>
+              </h1>
+            </div>
+            <h2 class="text-lg lg:text-2xl text-gray-300">
+              iqbalbagussatriawan@gmail.com
+            </h2>
+            <p class="text-base text-gray-300 leading-relaxed">
+              I am an Informatics student at UPN Jatim specializing in cloud-based application development and modern technology solutions.
+              Through the MBKM Bangkit program, I have honed skills in cloud computing, API development, and tools like Node.js, Postman, and Python. I am a detail-oriented and adaptable learner with strong analytical thinking, problem-solving, and teamwork abilities. With expertise in troubleshooting Google Cloud Platform, backend, and front-end optimization, I excel in addressing technical challenges while maintaining effective collaboration and communication.
+            </p>
+            <h2 class="w-full text-center text-lg lg:text-xl text-gray-300" style="margin-top: 50px;">
+              Surabaya, Indonesia<br>-60296 Wonojero, Kec. Rungkut-
+            </h2>
+          </div>
+        </div>
       </div>
     </section>
-    <!-- Resume -->
 
-    <!-- Portofolio -->
+    <!-- Resume Section -->
+    <section id="resume" class="py-10 bg-gray-900">
+      <div class="container mx-auto px-5 lg:px-10">
+        <h1 class="text-2xl text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt commodi dignissimos voluptatum placeat accusantium modi possimus maxime rerum, natus porro debitis numquam assumenda dolorem architecto doloribus. Ut quia provident aspernatur.</h1>
+      </div>
+    </section>
+
   </main>
+  
+  
   <!-- script js -->
    <script src="main.js">
 
