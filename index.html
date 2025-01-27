@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portofolio</title>
   <!-- favicon -->
-
+  <link rel="icon" type="image/x-icon" href="/assets/img/Favicon.ico">
   <!-- remix icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"/>
   <!-- CSS -->
@@ -80,7 +81,7 @@
     <!-- About Section -->
     <section id="about" class="relative min-h-screen flex items-center">
       <div class="absolute inset-0 -z-10">
-        <img src="./assets/img/about.jpg" alt="about_image" class="w-full h-full object-cover sm:invisible lg:visible">
+        <img src="./assets/img/test.jpg" alt="about_image" class="w-full h-full object-cover sm:invisible lg:visible">
       </div>
       <div class="container mx-auto px-5 lg:px-10 relative z-10">
         <div class="flex lg:flex-row flex-col items-start gap-10">
@@ -95,12 +96,12 @@
             <h2 class="text-lg lg:text-2xl text-gray-300">
               iqbalbagussatriawan@gmail.com
             </h2>
-            <p class="text-base text-gray-300 leading-relaxed">
+            <p class="text-sm leading-relaxed">
               I am an Informatics student at UPN Jatim specializing in cloud-based application development and modern technology solutions.
               Through the MBKM Bangkit program, I have honed skills in cloud computing, API development, and tools like Node.js, Postman, and Python. I am a detail-oriented and adaptable learner with strong analytical thinking, problem-solving, and teamwork abilities. With expertise in troubleshooting Google Cloud Platform, backend, and front-end optimization, I excel in addressing technical challenges while maintaining effective collaboration and communication.
             </p>
-            <h2 class="w-full text-center text-lg lg:text-xl text-gray-300" style="margin-top: 50px;">
-              Surabaya, Indonesia<br>-60296 Wonojero, Kec. Rungkut-
+            <h2 class="w-full text-center text-lg lg:text-xl text-gray-300" style="margin-top: 55px;">
+              Surabaya, Indonesia<br>-60296 Wonojero, Rungkut Dist-
             </h2>
           </div>
         </div>
@@ -108,10 +109,138 @@
     </section>
 
     <!-- Resume Section -->
-    <section id="resume" class="py-10 bg-gray-900">
-      <div class="container mx-auto px-5 lg:px-10">
-        <h1 class="text-2xl text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt commodi dignissimos voluptatum placeat accusantium modi possimus maxime rerum, natus porro debitis numquam assumenda dolorem architecto doloribus. Ut quia provident aspernatur.</h1>
+    <section id="resume" class="relative min-h-screen flex flex-col justify-center items-center">
+      <div class="container mx-auto text-center mb-12 flex flex-col gap-8">
+        <h1 class="text-4xl font-bold relative mt-36">
+          What I Do.
+          <span class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 h-1 bg-darkBlue w-24 sm:w-36"></span>
+        </h1>
+        <p class="text-sm mt-4">
+          Here is a summary of the programming languages, frameworks, and devtools I have mastered. With these skills, I am able to build high-quality applications, optimize systems, and successfully complete various projects.
+        </p>
       </div>
+    
+      <div class="grid gap-y-6 gap-x-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center px-4 mb-12">
+        <!-- Card 1 -->
+        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+          <div class="flex flex-col items-center pt-2">
+            <div class="w-16">
+              <img src="./assets/img/js.png" alt="JavaScript_logo">
+            </div>
+            <h3 class="text-center mt-2 text-xl text-white font-semibold">JavaScript</h3>
+            <p class="text-center mt-2 text-xs leading-snug">
+              Dynamic scripting language for creating interactive web applications and server-side development.
+            </p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+          <div class="flex flex-col items-center pt-2">
+            <div class="w-16">
+              <img src="./assets/img/php.png" alt="PHP_logo">
+            </div>
+            <h3 class="text-center mt-2 text-xl text-white font-semibold">PHP</h3>
+            <p class="text-center mt-2 text-xs leading-snug">
+              Server-side scripting language designed for web development and business applications.
+            </p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+          <div class="flex flex-col items-center pt-2">
+            <div class="w-16">
+              <img src="./assets/img/py.png" alt="Python_logo">
+            </div>
+            <h3 class="text-center mt-2 text-xl text-white font-semibold">Python</h3>
+            <p class="text-center mt-2 text-xs leading-snug">
+              Versatile language for web development, data science, AI, and automation.
+            </p>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+          <div class="flex flex-col items-center pt-2">
+            <div class="w-16">
+              <img src="./assets/img/nodejs.png" alt="Node.js_logo">
+            </div>
+            <h3 class="text-center mt-2 text-xl text-white font-semibold">Node.js</h3>
+            <p class="text-center mt-2 text-xs leading-snug">
+              Runtime environment for executing JavaScript code server-side and building scalable applications.
+            </p>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+          <div class="flex flex-col items-center pt-2">
+            <div class="w-16">
+              <img src="./assets/img/laravel.png" alt="Laravel_logo">
+            </div>
+            <h3 class="text-center mt-2 text-xl text-white font-semibold">Laravel</h3>
+            <p class="text-center mt-2 text-xs leading-snug">
+              PHP framework for web development with elegant syntax and robust features.
+            </p>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+          <div class="flex flex-col items-center pt-2">
+            <div class="w-16">
+              <img src="./assets/img/react.png" alt="React_logo">
+            </div>
+            <h3 class="text-center mt-2 text-xl text-white font-semibold">React</h3>
+            <p class="text-center mt-2 text-xs leading-snug">
+              JavaScript library for building user interfaces with reusable components.
+            </p>
+          </div>
+        </div>
+        <!-- Card 7 -->
+        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+          <div class="flex flex-col items-center pt-2">
+            <div class="w-16">
+              <img src="./assets/img/gcp.png" alt="GCP_logo">
+            </div>
+            <h3 class="text-center mt-2 text-xl text-white font-semibold">Google Cloud</h3>
+            <p class="text-center mt-2 text-xs leading-snug">
+              Cloud computing services for deploying and scaling applications globally.
+            </p>
+          </div>
+        </div>
+        <!-- Card 8 -->
+        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+          <div class="flex flex-col items-center pt-2">
+            <div class="w-16">
+              <img src="./assets/img/postman.png" alt="Postman_logo">
+            </div>
+            <h3 class="text-center mt-2 text-xl text-white font-semibold">Postman</h3>
+            <p class="text-center mt-2 text-xs leading-snug">
+              API development environment for testing and documenting APIs.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Card 9 -->
+        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 md:col-span-2 lg:col-span-1 xl:col-span-4 xl:col-start-2 xl:col-end-4">
+          <div class="flex flex-col items-center pt-2">
+            <div class="w-16">
+              <img src="./assets/img/docker.png" alt="Docker_logo">
+            </div>
+            <h3 class="text-center mt-2 text-xl text-white font-semibold">Docker</h3>
+            <p class="text-center mt-2 text-xs leading-snug">
+              Platform for developing, shipping, and running applications in containers.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- qualification -->
+       <div class="">
+
+       </div>
+    </section>
+
+    <!-- portofolio -->
+    <section>
+
     </section>
 
   </main>
