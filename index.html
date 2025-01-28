@@ -45,10 +45,12 @@
           <div class="w-full flex flex-col items-center text-center space-y-5 sm:space-y-0">
             <h1 class="">Hi! I'm Iqbal Bagus Satriawan</h1>
             <h2 class="">Crafting Creative and Functional<br>Web Solutions</h2>
-            <div class="flex justify-center pt-4 relative  sm:invisible lg:visible">
+            <div class="flex justify-center pt-4 relative">
               <!-- Garis -->
-              <span class="absolute top-0 left-1/2 -translate-x-1/2 h-0.5 bg-white " style="width: 400px;"></span>
+              <span class="absolute top-0 left-1/2 -translate-x-1/2 h-0.5 bg-white 
+                           w-40 sm:w-60 md:w-80 lg:w-96 xl:w-[500px]"></span>
             </div>
+            
             <div class="flex relative flex-row gap-4">
               <button class="btn">
                 <span class="text-sm sm:text-xs">Download CV</span>
@@ -87,10 +89,10 @@
         <div class="flex lg:flex-row flex-col items-start gap-10">
           <!-- Content -->
           <div class="w-full lg:w-2/3 space-y-5 text-left">
-            <div class="relative flex flex-col">
+            <div class="relative flex flex-col"> 
               <h1 class="text-4xl lg:text-5xl font-bold text-white relative inline-block">
                 About Me
-                <span class="absolute -bottom-1 left-0 h-1 bg-darkBlue sm:invisible lg:visible" style="width: 360px;"></span>
+                <span class="absolute -bottom-1 left-0 h-1 bg-darkBlue lg:w-[360px] sm:w-[280px]"></span>
               </h1>
             </div>
             <h2 class="text-lg lg:text-2xl text-gray-300">
@@ -110,6 +112,7 @@
 
     <!-- Resume Section -->
     <section id="resume" class="relative min-h-screen flex flex-col justify-center items-center">
+      <!-- resume title -->
       <div class="container mx-auto text-center mb-12 flex flex-col gap-8">
         <h1 class="text-4xl font-bold relative mt-36">
           What I Do.
@@ -119,7 +122,7 @@
           Here is a summary of the programming languages, frameworks, and devtools I have mastered. With these skills, I am able to build high-quality applications, optimize systems, and successfully complete various projects.
         </p>
       </div>
-    
+      <!-- resume card -->
       <div class="grid gap-y-6 gap-x-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center px-4 mb-12">
         <!-- Card 1 -->
         <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
@@ -232,17 +235,132 @@
         </div>
       </div>
 
-      <!-- qualification -->
-       <div class="">
+      <!-- qualification title -->
+      <div class="container mx-auto text-center mb-16 mt-12">
+        <h1 class="text-4xl font-bold relative">
+            Qualification
+            <span class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 h-1 bg-darkBlue w-24 sm:w-36"></span>
+        </h1>
+      </div>
 
-       </div>
+      <!-- Qualification Container -->
+      <div class="container mx-auto max-w-5xl pb-24">
+        <div class="container grid md:grid-cols-2 gap-8 md:gap-14">
+            <!-- Education Section -->
+            <div class="relative pb-8 md:pb-0">
+                <h2 class="text-xl font-bold tracking-[0.3em] mb-12"> <!-- Kurangi letter-spacing -->
+                  EDUCATION
+                </h2>
+    
+                <!-- Education Items -->
+                <div class="relative">
+                    <!-- Item 1 -->
+                    <div class="relative pl-8 pb-12 border-l-2 border-white">
+                        <!-- Circle Dot  -->
+                        <div class="absolute left-0 top-0 w-3 h-3 bg-white rounded-full -translate-x-1/2"></div>
+                        
+                        <h3 class="text-lg font-semibold mb-2">
+                          Universitas Pembangunan Nasional Veteran Jawa Timur
+                        </h3>
+                        <p class="text-xs mb-2">
+                          2022 - now
+                        </p>
+                        <p class="text-sm">
+                          Currently pursuing a Bachelor's degree in Informatics Engineering.
+                        </p>
+                    </div>
+    
+                    <!-- Item 2 -->
+                    <div class="relative pl-8 pb-12 border-l-2 border-white">
+                      <!-- Circle Dot  -->
+                      <div class="absolute left-0 top-0 w-3 h-3 bg-white rounded-full -translate-x-1/2"></div>
+                      
+                      <h3 class="text-lg font-semibold mb-2">
+                        SMAN 1 Magetan
+                      </h3>
+                      <p class="text-xs mb-2">
+                        2019 - 2022
+                      </p>
+                      <p class="text-sm">
+                        Graduated from junior high school.
+                      </p>
+                  </div>
+                </div>
+            </div>
+    
+            <!-- Experience Section -->
+            <div class="relative">
+                <h2 class="text-xl font-bold tracking-[0.3em] mb-12"> <!-- Kurangi letter-spacing -->
+                    EXPERIENCE
+                </h2>
+    
+                <!-- Experience Items -->
+                <div class="relative">
+                    <!-- Item 1 -->
+                    <div class="relative pl-8 border-l-2 border-white">
+                        <div class="absolute left-0 top-0 w-3 h-3 bg-white rounded-full -translate-x-1/2"></div>
+                        
+                        <h3 class="text-lg font-semibold mb-2">
+                            Cloud Computing Graduate Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
+                        </h3>
+                        <p class="text-xs mb-2">
+                            2024 - 2025
+                        </p>
+                        <p class="text-sm">
+- Cloud Technology: Gained knowledge in designing, implementing, and managing cloud-based solutions using Google Cloud Platform (GCP).<br> 
+- Backend Development: Built APIs with best practices for scalable and efficient solutions.<br> 
+- Machine Learning: Acquired experience in applying machine learning models for innovative solutions.<br> 
+- Capstone Project: Integrated cloud technology and machine learning into the final project.<br> 
+- Soft Skills: Developed time management, problem-solving, and cross-disciplinary team collaboration skills.<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
 
-    <!-- portofolio -->
-    <section>
+    <!-- Portofolio Section -->
+    <section id="portofolio" class="relative min-h-screen flex flex-col justify-center items-center bg-black py-24">
+      <!-- Portofolio Title -->
+      <div class="container mx-auto text-center mb-12 flex flex-col gap-8">
+        <h1 class="text-4xl font-bold relative">
+          Portofolio
+          <span class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 h-1 bg-darkBlue w-24 sm:w-36"></span>
+        </h1>
+        <p class="text-sm mt-4">
+          Here are some of the projects I've worked on. Each project showcases my skills in web development, cloud computing, and problem-solving.
+        </p>
+      </div>
 
+      <!-- Portofolio Card -->
+      <div class="container mx-auto px-5 lg:px-10">
+        <div class="grid gap-y-6 gap-x-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
+          <!-- Card 1 -->
+          <div class="w-full max-w-[360px] p-6 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+            <!-- Video -->
+            <div class="w-full h-48 overflow-hidden rounded-lg">
+              <video autoplay muted loop class="w-full aspect-video">
+                <source src="./assets/videos/project1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <!-- Description -->
+            <div class="mt-4">
+              <h3 class="text-xl font-semibold text-white">Project 1: GlucoGuide</h3>
+              <p class="text-sm text-gray-300 mt-2">
+                Glucoguide is an innovative application developed as the final project for Bangkit 2024 Batch 2. Designed to classify diabetes risk levels, it leverages user input data to provide accurate insights and empower proactive health management. Developed backend systems using Express.js and Flask, integrated with TensorFlow for machine learning predictions, deployed on Google Cloud Run.
+              </p>
+            </div>
+            <!-- Button -->
+            <div class="mt-4">
+              <a href="https://github.com/reiirei/Gluco-Guide" target="_blank" class="btn">
+                <span class="text-sm">View Repository</span>
+                <i class="ri-links-line"></i>
+              </a>
+            </div>
+          </div>
     </section>
-
   </main>
   
   

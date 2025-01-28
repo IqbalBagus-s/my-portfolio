@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         darkBlue: "#144660",
+        lightBlack: "#1d342e"
       },
     },
     keyframes: {

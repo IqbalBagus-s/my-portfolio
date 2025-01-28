@@ -655,6 +655,18 @@ video {
   margin-bottom: 3rem;
 }
 
+.mb-16{
+  margin-bottom: 4rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.mt-12{
+  margin-top: 3rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -679,6 +691,10 @@ video {
   display: grid;
 }
 
+.aspect-video{
+  aspect-ratio: 16 / 9;
+}
+
 .h-0\.5{
   height: 0.125rem;
 }
@@ -689,6 +705,14 @@ video {
 
 .h-16{
   height: 4rem;
+}
+
+.h-3{
+  height: 0.75rem;
+}
+
+.h-48{
+  height: 12rem;
 }
 
 .h-full{
@@ -715,16 +739,28 @@ video {
   width: 6rem;
 }
 
+.w-3{
+  width: 0.75rem;
+}
+
+.w-40{
+  width: 10rem;
+}
+
 .w-full{
   width: 100%;
 }
 
-.max-w-\[180px\]{
-  max-width: 180px;
+.max-w-5xl{
+  max-width: 64rem;
 }
 
 .max-w-\[280px\]{
   max-width: 280px;
+}
+
+.max-w-\[360px\]{
+  max-width: 360px;
 }
 
 .-translate-x-1\/2{
@@ -738,10 +774,6 @@ video {
 
 .cursor-pointer{
   cursor: pointer;
-}
-
-.grid-cols-\[repeat\(auto-fit\2c 180px\)\]{
-  grid-template-columns: repeat(auto-fit,180px);
 }
 
 .flex-row{
@@ -807,12 +839,20 @@ video {
   overflow: hidden;
 }
 
+.rounded-full{
+  border-radius: 9999px;
+}
+
 .rounded-lg{
   border-radius: 0.5rem;
 }
 
 .border{
   border-width: 1px;
+}
+
+.border-l-2{
+  border-left-width: 2px;
 }
 
 .border-white{
@@ -830,9 +870,32 @@ video {
   background-color: rgb(20 70 96 / var(--tw-bg-opacity, 1));
 }
 
+.bg-lightBlack{
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 52 46 / var(--tw-bg-opacity, 1));
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gradient-to-b{
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.from-black{
+  --tw-gradient-from: #000 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-slate-800{
+  --tw-gradient-to: #1e293b var(--tw-gradient-to-position);
+}
+
+.to-lightBlack{
+  --tw-gradient-to: #1d342e var(--tw-gradient-to-position);
 }
 
 .object-cover{
@@ -840,12 +903,17 @@ video {
      object-fit: cover;
 }
 
-.p-2{
-  padding: 0.5rem;
-}
-
 .p-4{
   padding: 1rem;
+}
+
+.p-6{
+  padding: 1.5rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-5{
@@ -853,9 +921,25 @@ video {
   padding-right: 1.25rem;
 }
 
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.pb-12{
+  padding-bottom: 3rem;
+}
+
+.pb-24{
+  padding-bottom: 6rem;
+}
+
+.pb-8{
+  padding-bottom: 2rem;
+}
+
+.pl-8{
+  padding-left: 2rem;
 }
 
 .pt-2{
@@ -922,6 +1006,10 @@ video {
 
 .leading-snug{
   line-height: 1.375;
+}
+
+.tracking-\[0\.3em\]{
+  letter-spacing: 0.3em;
 }
 
 .text-gray-300{
@@ -1029,11 +1117,6 @@ h1{
   color: rgb(20 70 96 / var(--tw-text-opacity, 1));
 }
 
-.hover\:-translate-y-2:hover{
-  --tw-translate-y: -0.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .hover\:-translate-y-1:hover{
   --tw-translate-y: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1061,6 +1144,14 @@ h1{
 
   .sm\:w-36{
     width: 9rem;
+  }
+
+  .sm\:w-60{
+    width: 15rem;
+  }
+
+  .sm\:w-\[280px\]{
+    width: 280px;
   }
 
   .sm\:grid-cols-1{
@@ -1099,13 +1190,25 @@ h1{
     grid-column: span 2 / span 2;
   }
 
+  .md\:w-80{
+    width: 20rem;
+  }
+
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:gap-14{
+    gap: 3.5rem;
   }
 
   .md\:py-24{
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .md\:pb-0{
+    padding-bottom: 0px;
   }
 }
 
@@ -1137,6 +1240,14 @@ h1{
 
   .lg\:w-2\/3{
     width: 66.666667%;
+  }
+
+  .lg\:w-96{
+    width: 24rem;
+  }
+
+  .lg\:w-\[360px\]{
+    width: 360px;
   }
 
   .lg\:w-auto{
@@ -1189,15 +1300,11 @@ h1{
     grid-column-end: 4;
   }
 
+  .xl\:w-\[500px\]{
+    width: 500px;
+  }
+
   .xl\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .xl\:grid-cols-\[repeat\(4\2c 180px\)\]{
-    grid-template-columns: repeat(4,180px);
-  }
-
-  .xl\:justify-center{
-    justify-content: center;
   }
 }
