@@ -590,6 +590,10 @@ video {
   }
 }
 
+.invisible{
+  visibility: hidden;
+}
+
 .fixed{
   position: fixed;
 }
@@ -624,10 +628,6 @@ video {
 
 .left-\[-100\%\]{
   left: -100%;
-}
-
-.left-\[0\]{
-  left: 0;
 }
 
 .top-0{
@@ -1094,6 +1094,10 @@ h1{
   color: rgb(20 70 96 / var(--tw-text-opacity, 1));
 }
 
+.\*\:w-full > *{
+  width: 100%;
+}
+
 .hover\:-translate-y-1:hover{
   --tw-translate-y: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1111,8 +1115,16 @@ h1{
 }
 
 @media (min-width: 340px){
+  .sm\:visible{
+    visibility: visible;
+  }
+
   .sm\:invisible{
     visibility: hidden;
+  }
+
+  .sm\:mt-36{
+    margin-top: 9rem;
   }
 
   .sm\:h-20{
@@ -1163,8 +1175,16 @@ h1{
 }
 
 @media (min-width: 540px){
+  .md\:invisible{
+    visibility: hidden;
+  }
+
   .md\:col-span-2{
     grid-column: span 2 / span 2;
+  }
+
+  .md\:mt-0{
+    margin-top: 0px;
   }
 
   .md\:w-80{

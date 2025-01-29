@@ -26,7 +26,7 @@
           </ul>
         </div>
 
-        <!-- language setting -->
+        <!-- Hamburger -->
         <div class="text-xl sm:text-3xl cursor-pointer z-50 lg:hidden">
           </i><i class="ri-menu-3-line" id="hamburger"></i>
         </div>
@@ -39,10 +39,10 @@
       <div class="absolute inset-0 -z-10">
         <img src="./assets/img/home-bg.jpg" alt="" class="w-full h-full object-cover sm:invisible lg:visible">
       </div>
-      <div class="container mx-auto px-5 lg:px-10">
+      <div class="container mx-auto px-5 lg:px-10 md:mt-0 sm:mt-36">
         <div class="flex lg:flex-row flex-col items-center justify-center gap-10">
           <!-- Content -->
-          <div class="w-full flex flex-col items-center text-center space-y-5 sm:space-y-0">
+          <div class="home__data w-full flex flex-col items-center text-center space-y-5 sm:space-y-0">
             <h1 class="">Hi! I'm Iqbal Bagus Satriawan</h1>
             <h2 class="">Crafting Creative and Functional<br>Web Solutions</h2>
             <div class="flex justify-center pt-4 relative">
@@ -75,7 +75,7 @@
           </div>
   
           <!-- Image -->
-          <div class="w-full lg:invisible">
+          <div class="home__img__data w-full lg:invisible ">
             <img src="./assets/img/home.jpg" alt="home_image" class="w-full rounded-lg shadow-lg">
           </div>
         </div>
@@ -85,12 +85,12 @@
     <!-- About Section -->
     <section id="about" class="relative min-h-screen flex items-center">
       <div class="absolute inset-0 -z-10">
-        <img src="./assets/img/test.jpg" alt="about_image" class="w-full h-full object-cover sm:invisible lg:visible">
+        <img src="./assets/img/about-bg.jpg" alt="about_image" class="w-full h-full object-cover sm:invisible lg:visible">
       </div>
       <div class="container mx-auto px-5 lg:px-10 relative z-10">
         <div class="flex lg:flex-row flex-col items-start gap-10">
           <!-- Content -->
-          <div class="w-full lg:w-2/3 space-y-5 text-left">
+          <div class="about__data w-full lg:w-2/3 space-y-5 text-left">
             <div class="relative flex flex-col"> 
               <h1 class="text-4xl lg:text-5xl font-bold text-white relative inline-block">
                 About Me
@@ -115,7 +115,7 @@
     <!-- Resume Section -->
     <section id="resume" class="relative min-h-screen flex flex-col justify-center items-center">
       <!-- resume title -->
-      <div class="container mx-auto text-center mb-12 flex flex-col gap-8">
+      <div class="resume__data container mx-auto text-center mb-12 flex flex-col gap-8">
         <h1 class="text-4xl font-bold relative mt-36">
           What I Do.
           <span class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 h-1 bg-darkBlue w-24 sm:w-36"></span>
@@ -127,7 +127,7 @@
       <!-- resume card -->
       <div class="grid gap-y-6 gap-x-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center px-4 mb-12">
         <!-- Card 1 -->
-        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+        <div class="card__items w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
           <div class="flex flex-col items-center pt-2">
             <div class="w-16">
               <img src="./assets/img/js.png" alt="JavaScript_logo">
@@ -139,7 +139,7 @@
           </div>
         </div>
         <!-- Card 2 -->
-        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+        <div class="card__items w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
           <div class="flex flex-col items-center pt-2">
             <div class="w-16">
               <img src="./assets/img/php.png" alt="PHP_logo">
@@ -151,7 +151,7 @@
           </div>
         </div>
         <!-- Card 3 -->
-        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+        <div class="card__items w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
           <div class="flex flex-col items-center pt-2">
             <div class="w-16">
               <img src="./assets/img/py.png" alt="Python_logo">
@@ -163,7 +163,7 @@
           </div>
         </div>
         <!-- Card 4 -->
-        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+        <div class="card__items w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
           <div class="flex flex-col items-center pt-2">
             <div class="w-16">
               <img src="./assets/img/nodejs.png" alt="Node.js_logo">
@@ -175,7 +175,7 @@
           </div>
         </div>
         <!-- Card 5 -->
-        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+        <div class="card__items w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
           <div class="flex flex-col items-center pt-2">
             <div class="w-16">
               <img src="./assets/img/laravel.png" alt="Laravel_logo">
@@ -187,7 +187,7 @@
           </div>
         </div>
         <!-- Card 6 -->
-        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+        <div class="card__items w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
           <div class="flex flex-col items-center pt-2">
             <div class="w-16">
               <img src="./assets/img/react.png" alt="React_logo">
@@ -199,7 +199,7 @@
           </div>
         </div>
         <!-- Card 7 -->
-        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+        <div class="card__items w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
           <div class="flex flex-col items-center pt-2">
             <div class="w-16">
               <img src="./assets/img/gcp.png" alt="GCP_logo">
@@ -211,7 +211,7 @@
           </div>
         </div>
         <!-- Card 8 -->
-        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
+        <div class="card__items w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
           <div class="flex flex-col items-center pt-2">
             <div class="w-16">
               <img src="./assets/img/postman.png" alt="Postman_logo">
@@ -224,21 +224,21 @@
         </div>
         
         <!-- Card 9 -->
-        <div class="w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 md:col-span-2 lg:col-span-1 xl:col-span-4 xl:col-start-2 xl:col-end-4">
+        <div class="card__items *:w-full max-w-[280px] p-4 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 md:col-span-2 lg:col-span-1 xl:col-span-4 xl:col-start-2 xl:col-end-4">
           <div class="flex flex-col items-center pt-2">
-            <div class="w-16">
-              <img src="./assets/img/docker.png" alt="Docker_logo">
-            </div>
-            <h3 class="text-center mt-2 text-xl text-white font-semibold">Docker</h3>
-            <p class="text-center mt-2 text-xs leading-snug">
-              Platform for developing, shipping, and running applications in containers.
-            </p>
+              <div class="w-16">
+                <img src="./assets/img/docker.png" alt="Docker_logo">
+              </div>
+              <h3 class="text-center mt-2 text-xl text-white font-semibold">Docker</h3>
+              <p class="text-center mt-2 text-xs leading-snug">
+                Platform for developing, shipping, and running applications in containers.
+              </p>
           </div>
         </div>
       </div>
 
       <!-- qualification title -->
-      <div class="container mx-auto text-center mb-16 mt-12">
+      <div class="resume__data container mx-auto text-center mb-16 mt-12">
         <h1 class="text-4xl font-bold relative">
             Qualification
             <span class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 h-1 bg-darkBlue w-24 sm:w-36"></span>
@@ -246,16 +246,16 @@
       </div>
 
       <!-- Qualification Container -->
-      <div class="container mx-auto max-w-5xl pb-24">
+      <div class="resume__data container mx-auto max-w-5xl pb-24">
         <div class="container grid md:grid-cols-2 gap-8 md:gap-14">
             <!-- Education Section -->
-            <div class="relative pb-8 md:pb-0">
+            <div class="resume__data relative pb-8 md:pb-0">
                 <h2 class="text-xl font-bold tracking-[0.3em] mb-12"> <!-- Kurangi letter-spacing -->
                   EDUCATION
                 </h2>
     
                 <!-- Education Items -->
-                <div class="relative">
+                <div class="resume__data relative">
                     <!-- Item 1 -->
                     <div class="relative pl-8 pb-12 border-l-2 border-white">
                         <!-- Circle Dot  -->
@@ -291,13 +291,13 @@
             </div>
     
             <!-- Experience Section -->
-            <div class="relative">
+            <div class="resume__data relative">
                 <h2 class="text-xl font-bold tracking-[0.3em] mb-12"> <!-- Kurangi letter-spacing -->
                     EXPERIENCE
                 </h2>
     
                 <!-- Experience Items -->
-                <div class="relative">
+                <div class="resume__data relative">
                     <!-- Item 1 -->
                     <div class="relative pl-8 border-l-2 border-white">
                         <div class="absolute left-0 top-0 w-3 h-3 bg-white rounded-full -translate-x-1/2"></div>
@@ -325,7 +325,7 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="relative min-h-screen flex flex-col justify-center items-center bg-black py-24">
       <!-- Portfolio Title -->
-      <div class="container mx-auto text-center mb-12 flex flex-col gap-8">
+      <div class="portfolio__data container mx-auto text-center mb-12 flex flex-col gap-8">
         <h1 class="text-4xl font-bold relative">
           Portfolio
           <span class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 h-1 bg-darkBlue w-24 sm:w-36"></span>
@@ -336,7 +336,7 @@
       </div>
 
       <!-- Portfolio Card -->
-      <div class="container mx-auto px-5 lg:px-10">
+      <div class="card__items container mx-auto px-5 lg:px-10">
         <div class="grid gap-y-6 gap-x-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
           <!-- Card 1 -->
           <div class="w-full max-w-[360px] p-6 bg-black border rounded-lg shadow-sm border-white cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300">
@@ -365,11 +365,11 @@
     </section>
   </main>
   
-  
-  <!-- script js -->
-   <script src="main.js">
+  <!-- scroll reveal -->
+  <script src="./src/js/scrollreveal.min.js"></script>
 
-   </script>
+  <!-- script js -->
+  <script src="./src/js/main.js"></script>
 
 </body>
 
