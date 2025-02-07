@@ -590,10 +590,6 @@ video {
   }
 }
 
-.invisible{
-  visibility: hidden;
-}
-
 .fixed{
   position: fixed;
 }
@@ -1115,10 +1111,6 @@ h1{
 }
 
 @media (min-width: 340px){
-  .sm\:visible{
-    visibility: visible;
-  }
-
   .sm\:invisible{
     visibility: hidden;
   }
@@ -1175,10 +1167,6 @@ h1{
 }
 
 @media (min-width: 540px){
-  .md\:invisible{
-    visibility: hidden;
-  }
-
   .md\:col-span-2{
     grid-column: span 2 / span 2;
   }
